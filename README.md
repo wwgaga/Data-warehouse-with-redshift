@@ -1,5 +1,10 @@
 # Project-Data-warehouse-with-redshift
 
+The project is to set up data warehouse for Sparkify, a music streaming startup, to efficiently store and organize user activity and song metadata data retrieved from Amazon S3, using Amazon Redshift..
+•	Create fact and dimension tables user activity and song metadata data for the star schema in Redshift.
+•	Develop a ETL pipeline that extracts their data from S3, stages them in Redshift, and transforms data into a set of dimensional tables
+•	Design a star schema tailored for efficient SQL queries, particularly focused on song play analysis.
+
 ## Introduction 
 
 This repository contains the code and documentation for setting up a data warehouse for Sparkify, a music streaming startup, using Amazon Redshift. The data warehouse is designed to store and organize Sparkify's user activity and song metadata data from Amazon S3, enabling the analytics team to derive valuable insights.
